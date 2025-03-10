@@ -8,8 +8,8 @@ int main(){
     cout<<"Masukkan radius : ";
     cin>>r;
 
-    volume=(float)4/(float)3*pi*(float)r*(float)r*(float)r;
-    lp=4*pi*(float)r*(float)r;
+    volume=(float)4/(float)3*pi*r*r*r;
+    lp=4*pi*r*r;
 
     cout<<volume<<endl;
     cout<<lp<<endl;
