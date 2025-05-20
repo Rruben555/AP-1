@@ -9,19 +9,19 @@ int main(){
     cout<<"Masukkan nilai : ";
     cin>>nilai;
 
-    //if statement
+    //if statement, digunakan untuk mengambil keputusan berdasarkan suatu kondisi di dalam ()
     /*if(nilai<=65){
         cout<<"Anda tidak lulus"<<endl;
     }*/
 
-    //if-else statement
+    //if-else statement, digunakan jika ingin menjalankan suatu program jika statement if tidak terpenuhi
     /*if(nilai<=65){
         cout<<"Anda tidak lulus"<<endl;
     } else{
         cout<<"Anda lulus!"<<endl;
     }*/
 
-    //if-else-if statement
+    //if-else-if statement, digunakan untuk banyak kondisi
     /*if (nilai==100){
         cout<<"Anda Keceh"<<endl;
     } else if (nilai<=65){
@@ -30,7 +30,7 @@ int main(){
         cout<<"Anda lulus"<<endl;
     }*/
 
-    //nested if
+    //nested if, if statement di dalam if statement
     /*if (nilai<=65){
         cout<<"Anda tidak lulus"<<endl;
     } else {
@@ -42,11 +42,11 @@ int main(){
 
     }*/
 
-    //Switch case
+    //Switch case, menjalankan 1 pernyataan dari beberapa kemungkinan pernyataan berdasarkan nilai
     /*switch(nilai){
         case 1:
             cout<<"Senin"<<endl;
-            break;
+            break; // digunakan sebagai pemisah dalam case
         case 2:
             cout<<"Selasa"<<endl;
             break;
@@ -70,7 +70,7 @@ int main(){
             break;
     }*/
 
-    //switch range
+    //switch range, menjalankan 1 pernyataan dari beberapa kemungkinan pernyataan berdasarkan jangkauan suatu nilai
     /*switch (nilai){
         case 85 ... 100 : cout<<"A"<<endl; break; 
         case 80 ... 84 : cout<<"B+"<<endl; break; 
@@ -81,7 +81,7 @@ int main(){
         default:cout<<"E"<<endl; break;
     }*/
 
-    //Ternary Operator
+    //Ternary Operator, operator yang menjalankan operasi kondisi dengan bentuk (kondisi) ? (hasil1) : (hasil2) dimana akan menjalankan hasil 1 jika benar dan hasil 2 jika salah 
     /*if(nilai%2==0){
         cout<<"Genap"<<endl;
     } else {
