@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    //Array Declaration & Initializatioon
+    //Array Declaration & Initializatioon, array adalah kumpulan data dengan tipe yang sama
     //2 Cara Membuat Array
 
     //cara 1: array kosong
@@ -66,22 +66,22 @@ int main(){
     // string s1="Hello";
     // string s2="world";
 
-    //1. s1=s2
+    //1. s1=s2 //mengubah nilai string
     // s1=s2;
     // cout<<"s1="<<s1<<endl;
     
-    //2. s1=s1+s2
+    //2. s1=s1+s2 //menggabungkan 2 string
     // cout<<"Hasil: "<<s1+s2<<endl;
 
-    //3. s1.length()
+    //3. s1.length() //mengambil nilai panjang string
     // cout<<s1.length()<<endl;
     // cout<<(s1+s2).length()<<endl;
 
-    //4. s1.substr(n,m)
+    //4. s1.substr(n,m) , mengambil bagian string dari index ke n sepanjang m
     // cout<<s1.substr(2,4)<<endl;
     // cout<<(s1+s2).substr(5,3)<<endl;
 
-    //Operator sizeof()
+    //Operator sizeof() //menentukan berapa bit data
     // int angka=10;
     // cout<<sizeof(angka);
 
