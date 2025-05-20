@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    //Goto Label
+    //Goto Label, dapat melakukan perulangan dengan pergi ke suatu bagian yang ditandai di program
     //Hello World, Fasilkom-TI, Ilmu Komputer, IKLC
     //-Hello World, IKLC, Ilmu KOmputer, FAsilkom-TI
     // a:
@@ -28,7 +28,7 @@ int main(){
     //     goto genap;
     // }
 
-    //Statement While
+    //Statement While, melakukan perulangan jika kondisi di () masih terpenuhi, di cek di awal perulangan
     // int i=1;
     // while (i<=10){
     //     if (i % 2==0){
@@ -36,19 +36,19 @@ int main(){
     //     } i++;
     // }
 
-    //Statement Do-While
+    //Statement Do-While, melakukan perulangan jika kondisi di () masih terpenuhi, di ccek di akhir perulangan
     // int i=1;
     // do{
     //    cout<<i<<endl;
     // } while (i<=0);
 
-    //Statement For
+    //Statement For, melakukan perulangan yang menggunakan counter yang akan terus bertambah atau berkurang jika kondisi yang berkaitan dengan counter terpenuhi
     //for(inisialisasi, kondisi, increase)
     // for(int i=1; i<=10; i+=2){
     //     cout<<"Hello World"<<endl;
     // }
 
-    //nested for
+    //nested for, for di dalam for
     //*****5 x 5
     // for(int i=1; i<=5; i++){
     //     for(int j=1; j<=5; j++){
