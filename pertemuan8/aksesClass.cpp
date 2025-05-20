@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-class ContohAkses{
+class ContohAkses{ //class adalah sebuah wadah yang mengelompokkan data dan fungsi dalam satu struktur
     private:
-        int privateVar;
+        int privateVar; //hanya dapat diakses oleh anggota class yang sama
     protected:
-        int protectedVar;
+        int protectedVar; //dapat diakses oleh anggota dalam class dan dari class lainnya seperti class turunan
     public:
-        int publicVar;
+        int publicVar; //dapat diakses oleh anggota dari berbagai class
     
     //Constructor
     ContohAkses(){
@@ -27,7 +27,7 @@ class ContohAkses{
 class Turunan: public ContohAkses{
     public: 
         void aksesProtected(){
-            cout<<protectedVar<<endl;
+            cout<<protectedVar<<endl; // dapat diakses
             cout<<publicVar<<endl;
             // cout<<privateVar<<endl; //error
         }
@@ -36,7 +36,7 @@ class Turunan: public ContohAkses{
 
 int main(){
     ContohAkses obj;
-    obj.tampilkanSemua();
+    obj.tampilkanSemua();//menjalankan fungsu dalam class
     
     cout<<"\nAkses dari luar class: "<<endl;
     // cout<<obj.privateVar<<endl; //error  
