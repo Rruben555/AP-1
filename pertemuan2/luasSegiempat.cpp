@@ -2,16 +2,16 @@
 using namespace std;
 
 int main(){
-    float luas, p, l;
+    float luas, p, l; //deklarasi variabel
     
     cout<<"Masukkan Panjang : ";
-    cin>>p;
+    cin>>p; //input p
 
     cout<<"Masukkan Lebar : ";
-    cin>>l;
+    cin>>l; //input l
 
-    luas= p*l;
-    cout<<"Luas = "<<luas<<endl;
+    luas= p*l; //menghitung luas
+    cout<<"Luas = "<<luas<<endl;//tampilkan luas
 
     return 0;
 
