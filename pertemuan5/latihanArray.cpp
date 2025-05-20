@@ -8,26 +8,26 @@ int main(){
     int hasil[2][2];
 
     cout<<"Matriks 1: "<<endl;
-    for (int i=0; i<2; i++){
+    for (int i=0; i<2; i++){//nested for
         for(int j=0; j<2; j++){
             cout<<"Masukkan elemen baris "<<i+1<<" kolom "<<j+1<<" : ";
-            cin>>matriks1[i][j];
+            cin>>matriks1[i][j];//input nilai matriks 1
         }
     }
 
     cout<<"Matriks 2: "<<endl;
-    for (int i=0; i<2; i++){
+    for (int i=0; i<2; i++){//nested for
         for(int j=0; j<2; j++){
             cout<<"Masukkan elemen baris "<<i+1<<" kolom "<<j+1<<" : ";
-            cin>>matriks2[i][j];
+            cin>>matriks2[i][j];//input nilai matriks 2
         }
     }
 
     cout<<"Hasil Penjumlahan"<<endl;
-    for (int i=0; i<2; i++){
+    for (int i=0; i<2; i++){//nested for
         for(int j=0; j<2; j++){
-            hasil[i][j]=matriks1[i][j]+matriks2[i][j];
-            cout<<hasil[i][j]<<" ";
+            hasil[i][j]=matriks1[i][j]+matriks2[i][j];//penjumlahan tiap elemen matriks
+            cout<<hasil[i][j]<<" ";//tampilkan hasil
         }
         cout<<endl;
     }
