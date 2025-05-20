@@ -18,7 +18,7 @@ void doubleValue(int *a){
 int main(){
     system("cls");
     
-    //Deklarasi Pointer
+    //Deklarasi Pointer, pointer adalah variabel yang menyimpan alamat memori dari variabel lain
     int number=35;
     int *pointer_number=&number;
 
