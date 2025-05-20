@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    //Vector Declaration & Initialization
+    //Vector Declaration & Initialization, vector mirip dengan array tapi dapat ditambah maupun dikurangi, hanya 1 dimensi
 
     vector <string> nama_karyawan={"Alya", "Parul", "Syukron", "Aurick", "Dzakwan"};
 
