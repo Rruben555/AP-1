@@ -21,4 +21,4 @@ begin(){
     double angka=25.0;
     double akar=sqrt(angka);
     o L "Akar dari " L angka L " adalah " L akar L e;
-}
+}//lihat headerCustom.h untuk detail
