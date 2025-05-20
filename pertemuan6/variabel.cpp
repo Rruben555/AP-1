@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-string namaGlobal="Ilmu";
+string namaGlobal="Ilmu"; //variabel global
 
 void namaVariabel (){
-    string namaLokal="Komputer";
+    string namaLokal="Komputer"; //variabel lokal
     //coba akses
     cout<<namaLokal<<endl;
     cout<<namaGlobal<<endl;
