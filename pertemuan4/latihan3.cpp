@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-    string password, sandi, expected = "";
+    string password, sandi, expected = "";//deklarasi variabel dengan expected=""
 
     cout << "Masukkan kata sandi : ";
-    cin >> password;
+    cin >> password;//input password
 
     cout << "Masukkan kata : ";
-    cin >> sandi;
+    cin >> sandi;//input sandi
 
     // Membuat string "expected" berdasarkan pola tertentu
     for (int i = 0; i < password.length(); i++) {
-        expected += password.substr(0, i + 1);
+        expected += password.substr(0, i + 1);//cth: jika password="abc", expected="aababc"
     }
 
     // Mengecek apakah input kedua sesuai dengan pola yang diharapkan
