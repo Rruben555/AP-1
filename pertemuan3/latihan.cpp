@@ -8,11 +8,11 @@ int main(){
 
     if (nilai % 5==0){//kondisi 1
         cout<<nilai<<" adalah kelipatan dari 5"<<endl;
-    }
-    if (nilai % 10 ==0){// kondisi 2, tidak terikat dengan kondisi 1
+        if (nilai % 10 ==0){// kondisi 2, berupa nested if
         cout<<nilai<<" adalah kelipatan dari 10"<<endl;
+        }
     }
-    else{//cabang dari kondisi 2
+    else{// jika kondisi 1 salah
         cout<<nilai<<" bukan kelipatan keduanya"<<endl;
     }
 
