@@ -8,7 +8,7 @@ int main(){
     cout<<"Masukkan kalimat: ";
     getline(cin, kalimat);//input kalimat (spasi tetap dibaca)
     
-    for(i=0; i<kalimat.length(); i++){// sampai i=kalimat.length() akan dijalankan
+    for(i=0; i<kalimat.length(); i++){// jika i<kalimat.length() masih terpenuhi akan dijalankan
         kalimat[i]=toupper(kalimat[i]);//semua char di kalimat akan di kapitalkan
 
     }
