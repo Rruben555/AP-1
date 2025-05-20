@@ -2,17 +2,17 @@
 using namespace std;
 
 int main(){
-    int nilai;
+    int nilai;//deklarasi variabel
     cout<<"Masukkan angka ";
-    cin>>nilai;
+    cin>>nilai;//input nilai
 
-    if (nilai % 5==0){
+    if (nilai % 5==0){//kondisi 1
         cout<<nilai<<" adalah kelipatan dari 5"<<endl;
     }
-    if (nilai % 10 ==0){
+    if (nilai % 10 ==0){// kondisi 2, tidak terikat dengan kondisi 1
         cout<<nilai<<" adalah kelipatan dari 10"<<endl;
     }
-    else{
+    else{//cabang dari kondisi 2
         cout<<nilai<<" bukan kelipatan keduanya"<<endl;
     }
 
