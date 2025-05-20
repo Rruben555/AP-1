@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-struct Mahasiswa{
+struct Mahasiswa{//Struct adalah kumpulan variabel yang tidak perlu sama
     string nama;
     int umur;
     float ipk;
