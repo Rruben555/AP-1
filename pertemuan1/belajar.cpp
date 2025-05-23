@@ -3,15 +3,15 @@
 using namespace std;
 int main(){
     /*komentar utk bbbrp baris*/
-    string nama;
+    string nama; //deklarasi variabel
     char kom, jeniskelamin;
     int nim;
     float ip;
-    cout<<"Hello World!"<<endl;
+    cout<<"Hello World!"<<endl; ///output
     cout<<"Masukkan nama ";
 
-    //cin>>nama; ga baca spasi
-    getline(cin,nama); //baca spasi
+    //cin>>nama; input ga baca spasi
+    getline(cin,nama); // input baca spasi
 
     cout<<"Masukkan kom ";
     cin>>kom;
