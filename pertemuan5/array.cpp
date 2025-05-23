@@ -35,7 +35,7 @@ int main(){
     //     cout<<nama[i]<<endl;
     // }
 
-    //Multidimensional Array, array di dalam array
+    //Multidimensional Array, array di dalam array/seperti matriks/koordinat
     //1 3 5
     //2 4 6
     // int matrix[2][3]={{1,3,5}, {2,4,6}};
