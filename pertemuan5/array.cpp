@@ -98,8 +98,8 @@ int main(){
     // cout<<sizeof(nama_karyawan)<<endl;
     // cout<<sizeof(string)<<endl;
 
-    //Array Library
-    // array<float,5> nilai={87.2, 90, 100, 95.7, 78.5};//vector array
+    //Array Library ,vector array
+    // array<float,5> nilai={87.2, 90, 100, 95.7, 78.5};
     // cout<<"Nilai: ";
     // for (int i=0; i<nilai.size(); i++){ //cara 1 output
     //     cout<<nilai[i]<<" ";
