@@ -36,7 +36,7 @@ int main(){
     //     } i++;
     // }
 
-    //Statement Do-While, melakukan perulangan jika kondisi di () masih terpenuhi, di ccek di akhir perulangan
+    //Statement Do-While, melakukan perulangan jika kondisi di () masih terpenuhi, di cek di akhir perulangan
     // int i=1;
     // do{
     //    cout<<i<<endl;
