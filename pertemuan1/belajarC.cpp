@@ -15,10 +15,10 @@ int main() {
     printf("Masukkan nim : ");
     scanf("%d", &nim); // fungsi masukan pada C
 
-    getchar();
+    getchar(); //baca 1 char
 
     printf("Masukkan kom : ");
-    gets(kom); 
+    gets(kom); //baca array char
 
     printf("Masukkan ip : ");
     scanf("%f", &ip); 
@@ -27,12 +27,12 @@ int main() {
     printf("Nama : ");
     puts(nama); // put string, digunakan untuk string dalam bentuk array char
 
-    printf("NIM : %d\n", nim);
-
+    printf("NIM : %d\n", nim); //output pada C
+    
     printf("KOM : ");
-    puts(kom); 
+    puts(kom); //output dan pindah baris
     printf("IP : %f\n", ip);
 
     printf("press any button to continue...");
-    getch(); 
+    getch(); //baca 1 char, tidak ditampilkan
 }
