@@ -21,9 +21,9 @@ int main(){
 
 
     //Delete data from Vector
-    nama_karyawan.pop_back();
+    nama_karyawan.pop_back(); //menghapus data urutan terakhir
 
-    nama_karyawan.erase(nama_karyawan.begin()+3);
+    nama_karyawan.erase(nama_karyawan.begin()+3);//menghapus data yang lokasinya dihitung dari awal indeks
 
     for (int i=0; i<nama_karyawan.size(); i++){
         cout<<nama_karyawan[i]<<endl;
