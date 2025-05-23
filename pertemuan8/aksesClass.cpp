@@ -36,7 +36,7 @@ class Turunan: public ContohAkses{
 
 int main(){
     ContohAkses obj;
-    obj.tampilkanSemua();//menjalankan fungsu dalam class
+    obj.tampilkanSemua();//menjalankan fungsi dalam class
     
     cout<<"\nAkses dari luar class: "<<endl;
     // cout<<obj.privateVar<<endl; //error  
