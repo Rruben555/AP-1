@@ -99,13 +99,13 @@ int main(){
     // cout<<sizeof(string)<<endl;
 
     //Array Library
-    // array<float,5> nilai={87.2, 90, 100, 95.7, 78.5};
+    // array<float,5> nilai={87.2, 90, 100, 95.7, 78.5};//vector array
     // cout<<"Nilai: ";
-    // for (int i=0; i<nilai.size(); i++){
+    // for (int i=0; i<nilai.size(); i++){ //cara 1 output
     //     cout<<nilai[i]<<" ";
     // }
 
-    // for (float n : nilai){
+    // for (float n : nilai){ //cara 2 output
     //     cout<<n<<" ";
     // }
 
