@@ -93,7 +93,7 @@ int main(){
     // cout<<s.length();
 
     // string nama_karyawan[]={"Alya", "Parul", "Syukron", "Aurick", "Dzakwan"};
-    // int n=sizeof(nama_karyawan) / sizeof(string);
+    // int n=sizeof(nama_karyawan) / sizeof(string); //menentukan jumlah data di array
     // cout<<n<<endl;
     // cout<<sizeof(nama_karyawan)<<endl;
     // cout<<sizeof(string)<<endl;
